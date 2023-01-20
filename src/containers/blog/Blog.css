@@ -1,0 +1,12 @@
+.blog__container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.blog__groupB {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;    
+
+}

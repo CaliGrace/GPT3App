@@ -1,0 +1,93 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-footer);
+  color: white;
+  height: 100%;
+}
+.footer__heading {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 4rem;
+}
+.footer__heading h1 {
+  font-size: 3rem;
+}
+.footer__heading button {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.322);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: white;
+  margin-top: 3rem;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 2rem 0; */
+  gap: 15rem;
+  /* width: 70%; */
+  align-items: center;
+}
+.footer__content p{
+    color:rgba(255, 255, 255, 0.616);
+    line-height: 1.5rem;
+}
+.footer__logo-container {
+  font-size: 10px;
+  flex: 0.5
+}
+.footer__logo-container img {
+    width: 40%;
+    height: 40%;
+    margin-bottom: 1rem;
+}
+.footer__links-container {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__links,
+.footer__company,
+.footer__getInTouch {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.footer__links a,
+.footer__company p, .footer__getInTouch p{
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.616);
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 10px;
+    margin-bottom: -3rem;
+}
+
+@media screen and (max-width: 550px) {
+    .footer__heading h1{
+        font-size: 1.5rem;
+    }
+    .footer__content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer__logo-container img {
+        width: 20%;
+        height: 20%;
+        margin-bottom: 1rem;
+    }
+    .footer__content p {
+        width: 50%;
+    }
+    .footer__links-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

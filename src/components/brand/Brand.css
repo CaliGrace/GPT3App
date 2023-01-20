@@ -1,0 +1,11 @@
+.brand {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+@media screen and (max-width: 700px) {
+    .brand {
+        display: grid;
+        grid-template-columns: repeat(3,auto) ;
+    }
+}

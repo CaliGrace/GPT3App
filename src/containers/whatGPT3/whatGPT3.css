@@ -1,0 +1,23 @@
+.whatgpt3 {
+    color: white;
+    background: var(--color-blog);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.whatgpt3__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+
+}
+.whatgpt3__heading p {
+    color: var(--color-subtext);
+}
+.whatgpt3__features-container {
+    display: flex;
+    gap: 3.5rem;
+}
